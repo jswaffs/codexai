@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://codexai-pge5.onrender.com', {
+    const response = await fetch('https://johnai-h40u.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
